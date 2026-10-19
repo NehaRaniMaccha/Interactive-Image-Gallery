@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+    <h1>Interactive Image Gallery</h1>
+    <p>Explore beautiful moments through images</p>
+    <p class="student-name">Created by: Maccha Venkata Neha Rani</p>
+</header>
+
+    <main class="gallery">
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                 alt="Mountain landscape">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                 alt="Nature landscape">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969"
+                 alt="Forest">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                 alt="Beach">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+                 alt="Lake and mountains">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+                 alt="Beautiful mountain">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+                 alt="Green forest">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                 alt="Road landscape">
+        </div>
+
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <button class="close" id="closeBtn">&times;</button>
+
+        <button class="prev" id="prevBtn">&#10094;</button>
+
+        <img id="lightboxImage" src="" alt="Large preview">
+
+        <button class="next" id="nextBtn">&#10095;</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
